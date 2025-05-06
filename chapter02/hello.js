@@ -12,4 +12,4 @@ const server = http.createServer((req,res)=>{
 function log(count) {
     console.log((count+=1));
 }
-server.listen(8000,()=> console.log("Hello Node.js"));
+server.listen(80,()=> console.log("Hello Node.js"));
