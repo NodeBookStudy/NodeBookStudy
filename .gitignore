@@ -1,2 +1,7 @@
 # node_modules 폴더 무시 
 /chapter03/express-server/node_modules
+
+#env 파일 무시
+.env
+
+node_modules
